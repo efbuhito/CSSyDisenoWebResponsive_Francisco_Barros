@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body{
+  background: black;
+  color:white;
+  font-family: 'Dancing Script';
+}
+.superior{
+  background: #5b7989;
+}
+header{
+  float:left;
+  width: 50%;
+}
+nav{
+  float: right;
+  font-weight: bold;
+  text-align: right;
+}
+.limpiar{
+  clear: both;
+}
+#central{
+  background: #82c3a6;
+}
+#secundaria{
+  background: #d5c75f;
+}
+footer{
+  background: #C6d5c5;
+}
+.contfooter{
+background: #C6d5c5;
+color: black;
+width: 25%;
+float:left;
+}
