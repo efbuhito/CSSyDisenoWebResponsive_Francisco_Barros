@@ -9,11 +9,11 @@ a{
 }
 #contenido{
   width: 900px;
-  margin: 0px auto;
+  margin: auto;
 }
 .superior{
   background: #5b7989;
-  -moz-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   -webkit-border-radius:10px 10px 0px 0px;
 }
 .titulo{
@@ -39,6 +39,12 @@ nav{
 #central{
   background: #82c3a6;
 }
+#flying{
+  width: 75%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
 #secundaria{
   background: #d5c75f;
 }
@@ -51,11 +57,11 @@ nav{
   float:left;
 }
 #contacto{
-  -moz-border-radius: 0px 0px 0px 10px;
+  border-radius: 0px 0px 0px 10px;
   -webkit-border-radius: 0px 0px 0px 10px;
 }
 #derechos{
-  -moz-border-radius: 0px 0px 10px 0px;
+  border-radius: 0px 0px 10px 0px;
   -webkit-border-radius: 0px 0px 10px 0px;
 }
 @media screen and (max-width: 900px) {
@@ -66,10 +72,12 @@ nav{
   header{
     float: none;
     width: 100%;
+    text-align: center;
   }
   nav{
     float: none;
     width: 100%;
+    height: 50px;
     text-align: center;
   }
   .contfooter{
@@ -78,11 +86,11 @@ nav{
     margin: auto;
   }
   #contacto{
-    -moz-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
     -webkit-border-radius: 0px 0px 0px 0px;
   }
   #derechos{
-    -moz-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
     -webkit-border-radius: 0px 0px 10px 10px;
   }
 }
