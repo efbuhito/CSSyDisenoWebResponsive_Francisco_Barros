@@ -4,8 +4,24 @@ body{
   color:white;
   font-family: 'Dancing Script';
 }
+a{
+  color: white;
+}
+#contenido{
+  width: 900px;
+  margin: 0px auto;
+}
 .superior{
   background: #5b7989;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius:10px 10px 0px 0px;
+}
+.titulo{
+  padding-left: 10px;
+  text-shadow: 2px 2px  #02010A;
+}
+.activo{
+  text-decoration: none;
 }
 header{
   float:left;
@@ -27,12 +43,47 @@ nav{
 #secundaria{
   background: #d5c75f;
 }
-footer{
-  background: #C6d5c5;
-}
 .contfooter{
-background: #C6d5c5;
-color: black;
-width: 25%;
-float:left;
+  text-indent: 10px;
+  background: #C6d5c5;
+  color: black;
+  height: 200px;
+  width: 25%;
+  float:left;
+}
+#contacto{
+  -moz-border-radius: 0px 0px 0px 10px;
+  -webkit-border-radius: 0px 0px 0px 10px;
+}
+#derechos{
+  -moz-border-radius: 0px 0px 10px 0px;
+  -webkit-border-radius: 0px 0px 10px 0px;
+}
+@media screen and (max-width: 900px) {
+  #contenido{
+    width: 100%;
+    margin: auto;
+  }
+  header{
+    float: none;
+    width: 100%;
+  }
+  nav{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .contfooter{
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  #contacto{
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+  }
+  #derechos{
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+  }
 }
