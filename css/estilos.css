@@ -100,14 +100,13 @@ img{
     margin: 20px;
     padding: 20px;
   }
-  #img1{
+  .img1{
     width: 90%;
     margin: auto;
   }
-  #img2{
+  .img2{
     width: 90%;
     margin: auto;
-    padding-top: 20px;
   }
   .contfooter{
     width: 100%;
