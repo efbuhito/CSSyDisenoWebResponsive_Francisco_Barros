@@ -57,18 +57,68 @@ img{
   flex-wrap: wrap;
   padding: 20px;
 }
-#img1, #img2{
+.img1, .img2{
   width: 45%;
   margin: auto;
+}
+#img1, #img2{
+  width: 100%;
+  margin: auto;
+}
+@keyframes
+img1-animacion{
+0% {
+  transform: rotate(0deg);
+  box-shadow: 2px 2px 2px #02010a;
+  border: 0px;}
+50% {
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: 2px;
+  }
+100% {
+  transform: rotate(0deg);
+  box-shadow: 2px 2px 2px #02010a;
+  border: 0px;
+  }
+}
+#img1:hover{
+  animation-name: img1-animacion;
+  animation-duration: 2s;
+}
+@keyframes
+img2-animacion{
+0% {
+  transform:translate(0px,0px);
+  box-shadow: 2px 2px 2px #02010a;
+  border: 0px;}
+50% {
+  transform: translate(5px,-20px);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: 2px;
+  }
+100% {
+  transform: translate(0px,0px);
+  box-shadow: 2px 2px 2px #02010a;
+  border: 0px;
+  }
+}
+#img2:hover{
+  animation-name: img2-animacion;
+  animation-duration: 2s;
 }
 .contfooter{
   text-indent: 10px;
   background: #C6d5c5;
   color: black;
-  height: 200px;
+  height: 220px;
   width: 25%;
   float:left;
 }
+.enlace{
+  color:black;
+  font-weight:bold;
+ }
 #contacto{
   border-radius: 0px 0px 0px 10px;
   -webkit-border-radius: 0px 0px 0px 10px;
@@ -76,6 +126,10 @@ img{
 #derechos{
   border-radius: 0px 0px 10px 0px;
   -webkit-border-radius: 0px 0px 10px 0px;
+}
+.redes{
+  width: 20px;
+  box-shadow: 0px 0px 0px;
 }
 @media screen and (max-width: 900px) {
   #contenido{
@@ -105,7 +159,12 @@ img{
     margin: auto;
   }
   .img2{
+    padding-top: 20px;
     width: 90%;
+    margin: auto;
+  }
+  #img1, #img2{
+    width: 100%;
     margin: auto;
   }
   .contfooter{
