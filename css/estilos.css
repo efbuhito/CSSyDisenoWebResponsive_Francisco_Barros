@@ -70,6 +70,14 @@ img{
   flex-direction: row;
   flex-wrap: wrap;
   padding: 20px;
+  text-align: center;
+}
+.columnas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
 }
 .img1, .img2{
   width: 45%;
@@ -78,6 +86,24 @@ img{
 #img1, #img2{
   width: 100%;
   margin: auto;
+}
+.col{
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+}
+.imgcol{
+  width: 100%;
+  margin: auto;
+}
+#imgcol1{
+  filter: blur(10px);
+}
+#imgcol2, #imgcol4, #imgcol6{
+  filter: grayscale(100%);
+}
+#imgcol3{
+  filter: sepia(90%);
 }
 @keyframes
 img1-animacion{
@@ -132,7 +158,7 @@ img2-animacion{
 .enlace{
   color:black;
   font-weight:bold;
- }
+}
 #contacto{
   border-radius: 0px 0px 0px 10px;
   -webkit-border-radius: 0px 0px 0px 10px;
@@ -165,11 +191,16 @@ img2-animacion{
     margin-top: 0px;
     margin-bottom: 0px;
   }
+  #flying{
+    width: 90%;
+    margin: auto;
+  }
   .contimg{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
+    text-align: center;
   }
   .img1{
     width: 90%;
@@ -180,9 +211,10 @@ img2-animacion{
     width: 90%;
     margin: auto;
   }
-  #img1, #img2{
-    width: 100%;
+  .col{
+    width: 90%;
     margin: auto;
+    padding: 10px;
   }
   .contfooter{
     width: 100%;
