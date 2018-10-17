@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@keyframes
+contenido-animacion{
+0% {
+  margin-top: 150px;
+  }
+60% {
+  margin-top: -50px;
+  }
+100% {
+  margin-top: 0px;
+  }
+}
 body{
   background: black;
   color:white;
@@ -8,6 +20,8 @@ a{
   color: white;
 }
 #contenido{
+  animation-name: contenido-animacion;
+  animation-duration: 1s;
   width: 900px;
   margin: auto;
 }
@@ -147,11 +161,14 @@ img2-animacion{
     height: 50px;
     text-align: center;
   }
+  .titulo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .contimg{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 20px;
     padding: 20px;
   }
   .img1{
