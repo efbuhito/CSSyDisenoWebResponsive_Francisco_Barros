@@ -1,3 +1,4 @@
+/*Esta sección del código afecta el estilo para todos los media*/
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 body{
   background: black;
@@ -171,6 +172,7 @@ img2-animacion{
   width: 20px;
   box-shadow: 0px 0px 0px;
 }
+/*Esta sección del código afecta únicamente a pantallas menores a 900px*/
 @media screen and (max-width: 900px) {
   #contenido{
     width: 100%;
